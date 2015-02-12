@@ -1,0 +1,127 @@
+/**
+ * CSS Style, pmav.eu
+ * 20/Feb/2010
+*/
+
+body {
+    font: 14px "Arial", sans-serif;
+    color: #000000;
+}
+
+a {
+    color: #0000FF;
+}
+
+a:hover {
+    color: #000000;
+}
+
+a:target {
+    background: #FFFF00;
+}
+
+cite, pre {
+    border-left: 1px solid #DDDDDD;
+    padding: 2px 0 2px 10px;
+    background: #EEEEEE;
+}
+
+cite {
+    font: italic 14px/20px "Georgia", serif;
+    display: block;
+}
+
+ul {
+    list-style: square;
+}
+
+/* -------------------------------------- */
+
+form fieldset {
+    border: 1px solid #DDD;
+    float: left;
+}
+
+form .input {
+  text-align: right;
+  padding: 1px;
+  font-size: 16px;
+}
+
+form .submit {
+    vertical-align: top;
+    font-size: 16px;
+}
+
+form span {
+    font-size: 20px;
+}
+
+
+
+/* -------------------------------------- */
+
+#wrapper {
+    margin: auto;
+    width: 800px;
+}
+
+/* -------------------------------------- */
+
+#header {
+    border-bottom: 4px solid #000000;
+    margin: 20px 0;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+/* -------------------------------------- */
+
+#main .box {
+    border: 1px solid #DDDDDD;
+    background: #F5F5F5;
+    margin: 0 0 20px 0;
+    padding: 6px;
+}
+
+#main .box h2 {
+    border-bottom: 1px solid #BBBBBB;
+    margin: 0 0 10px 0;
+    font-size: 24px;
+}
+
+#main .box h4 {
+    border-bottom: 1px solid #DDDDDD;
+    font-size: 16px;
+    margin: 20px 0 10px 0;
+}
+
+#main .box p, #main .box cite {
+    margin: 3px 0 3px 0;
+}
+
+
+#main .box div.text-end p {
+    margin: 4px 0 6px 0;
+}
+
+#main .box .text, #main .box .text-end {
+    margin: 40px 0 0 0;
+}
+
+.console {
+  border: 1px solid #EEEEEE;
+  font-family: monospace;
+  background: #FFFFFF;
+  overflow: auto;
+  padding: 5px;
+}
+/* -------------------------------------- */
+
+#footer {
+    border-top: 1px solid #000000;
+    padding: 2px 0;
+    margin: 20px 0;
+}

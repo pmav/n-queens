@@ -1,0 +1,50 @@
+table.bord {
+    border: 2px solid #DDD;
+}
+
+.bord td {
+    width: 9px;
+    height: 10px;
+    border: 1px solid #FFFFFF;
+    font-size: 0;
+    background: #DDD;
+}
+
+.bord td.queen {
+    background: #B30000;
+}
+
+.cl {
+    clear: left;
+    line-height: 0;
+}
+
+.info {
+    font-size: 6px;
+    background: #CCC;
+    width: 80px;
+    float: left;
+}
+
+.bar {
+    font-size: 6px;
+    color: #000000;
+    min-width: 2px;
+    float: left;
+}
+
+.maximum {
+    background: #073775;
+}
+
+.average {
+    background: red;
+}
+
+.minimum {
+    background: #89A8D0;
+}
+
+.separator {
+    font-size: 4px;
+}
